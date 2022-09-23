@@ -36,7 +36,12 @@ public class Motor {
                 "Betoltes: " + toltes + '\n' +
                 "Szelepszam: " + szelepszam + '\n' +
                 "Tengelyszam: " + tengelyszam + '\n' +
+                "Urtartalom: " + urtartalom() + "ccm" + '\n' +
                 "Teljesitmeny: " + hp + "HP " + nm + "NM ";
+    }
+
+    public double urtartalom() {
+        return 0.785*(hengerszam*hszelesseg/10*hszelesseg/10*hmagassag/10);
     }
 
     public String getGyarto() {
