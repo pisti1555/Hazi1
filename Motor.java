@@ -15,11 +15,14 @@ public class Motor {
         this.gyarto = gyarto;
         this.motorKod = motorKod;
         this.elrendezes = elrendezes;
+        this.hengerszam = hengerszam;
         this.hmagassag = hmagassag;
         this.hszelesseg = hszelesseg;
         this.toltes = toltes;
         this.szelepszam = szelepszam;
         this.tengelyszam = tengelyszam;
+        this.hp = hp;
+        this.nm = nm;
     }
 
     @Override
