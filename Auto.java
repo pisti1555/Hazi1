@@ -13,6 +13,15 @@ public class Auto {
         this.ar = ar;
     }
 
+    @Override
+    public String toString() {
+        return "Gyarto: " + gyarto + '\n' +
+                "Tipus: " + tipus + '\n' +
+                "Gyartasi ev: " + gyartasiEv + '\n' +
+                "Ar:" + ar + " Ft" + '\n' +
+                "Motor: " + motor.toString() + '\n';
+    }
+
     public String getGyarto() {
         return gyarto;
     }

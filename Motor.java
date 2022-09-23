@@ -22,6 +22,20 @@ public class Motor {
         this.tengelyszam = tengelyszam;
     }
 
+    @Override
+    public String toString() {
+        return "Gyarto: " + gyarto + '\n' +
+                "Motorkod: " + motorKod + '\n' +
+                "Hengerelrendezes: " + elrendezes + '\n' +
+                "Hengerszam: " + hengerszam + '\n' +
+                "Hengermagassag: " + hmagassag + '\n' +
+                "Hengerszelesseg: " + hszelesseg + '\n' +
+                "Betoltes: " + toltes + '\n' +
+                "Szelepszam: " + szelepszam + '\n' +
+                "Tengelyszam: " + tengelyszam + '\n' +
+                "Teljesitmeny: " + hp + "HP " + nm + "NM ";
+    }
+
     public String getGyarto() {
         return gyarto;
     }
